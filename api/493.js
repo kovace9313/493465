@@ -167,7 +167,7 @@ const URLS = [
     { url: "https://beograd.prometko.si/api/stations/arrivals?station=27052", timetable: timetableMapA },
     { url: "https://beograd.prometko.si/api/stations/arrivals?station=29559", timetable: timetableMapB },
     { url: "https://beograd.prometko.si/api/stations/arrivals?station=20391", timetable: timetableMapB },
-    { url: "https://beograd.prometko.si/api/stations/arrivals?station=29533", timetable: timetableMapB },
+    { url: "https://beograd.prometko.si/api/stations/arrivals?station=29533", timetable: timetableMapB }
 ];
 const CLEAN_REGEX = /[^\d:.]/g;
 
