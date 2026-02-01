@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <title>Stranica sa linkovima</title>
+    <style>
+        /* Podešavanje cele stranice da bude centrirana */
+        body, html {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            justify-content: center; /* Horizontalno centriranje */
+            align-items: center;     /* Vertikalno centriranje */
+            background-color: white;
+            font-family: sans-serif;
+        }
+
+        /* Kontejner koji drži dugmad jedno ispod drugog */
+        .container {
+            display: flex;
+            flex-direction: column;
+            gap: 20px; /* Razmak između dugmadi */
+        }
+
+        /* Osnovni stil za veliku dugmad */
+        .button {
+            display: inline-block;
+            padding: 25px 60px; /* Veće dimenzije */
+            font-size: 28px;    /* Veći tekst */
+            font-weight: bold;
+            color: white;
+            text-decoration: none;
+            border-radius: 15px;
+            text-align: center;
+            transition: opacity 0.3s;
+        }
+
+        .button:hover {
+            opacity: 0.8;
+        }
+
+        /* Različite boje za svako dugme */
+        .btn-493 {
+            background-color: #e67e22; /* Narandžasta */
+        }
+
+        .btn-465 {
+            background-color: #8e44ad; /* Ljubičasta */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <a href="493.html" class="button btn-493">493</a>
+        <a href="465.html" class="button btn-465">465</a>
+    </div>
+
+</body>
+</html>
