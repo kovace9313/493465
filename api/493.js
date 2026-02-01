@@ -1,6 +1,6 @@
 // Fajl: api/get-data.js
 
-import fetch from 'node-fetch';
+// import fetch from 'node-fetch';
 
 // --- 1. KOMPLETAN RED VOŽNJE (Vaši podaci) ---
 const timetableMapA = {
